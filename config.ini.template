@@ -1,0 +1,14 @@
+[dropbox]
+app_key = YOUR_DROPBOX_APP_KEY
+app_secret = YOUR_DROPBOX_APP_SECRET
+
+[google]
+; Download credentials.json from Google Cloud Console
+; Place it in the project root as credentials.json
+; Or use a service account key:
+; service_account_key = sa-key.json
+
+[migration]
+dest_folder = Dropbox Migration
+conflict = skip
+include_shared = false

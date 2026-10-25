@@ -1,0 +1,33 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Credentials & tokens
+credentials.json
+token.json
+*.token.json
+config.ini
+sa-key.json
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
